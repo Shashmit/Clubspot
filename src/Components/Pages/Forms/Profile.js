@@ -6,12 +6,8 @@ export default function Profile() {
         <div class="label">
             <h1>User Profile</h1>
                 <div class="row">
-                    <div class="Image">
-                        <img
-                        src=""
-                        class="avatar"
-                        alt="avatar"
-                        />
+                    <div class="text-center">
+                        <img src="" class="avatar" alt="avatar"/>
                         <input type="file" class="form"></input>
                     </div>
                     <div class="personal">
