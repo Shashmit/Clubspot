@@ -3,15 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    
+    padding: 60px;   
   }
 .function{
-    width: 700px;
-    height: 200px;
-  background-color: #fff;
-  padding: 25px 30px;
-  border-radius: 5px;
+  width: 750px;
+  height: 420px;
+  background-color: #9c8cf2;
+  padding: 20px 60px;
+  border-radius: 100px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 .content{
@@ -19,21 +18,21 @@
 } 
 .title{
     padding-top: 10px;
-    margin-left: 40%;
-    font-size: 25px;
-    font-weight: 600;
+    margin-left: 38%;
+    font-size: 30px;
     position: relative;
-    color: #7B68EE;
+    color: white;
     font-family: "Monserrat",sans-serif;
 }
 
 .details{
     padding-top: 20px;
-    color: black;
-    font-size: 22px;
+    color: #404040;
+    font-size: 27px;
 }
 .nav_links2{
     list-style: none;
+    margin-top: 20%;
 }
 .content{
     position: relative;
@@ -41,21 +40,39 @@
     padding-top: 20px;
 }
 .button2{
-    position: relative;
-    padding-top: 20px;
-    margin-left: 40%;
+  font-family: "Monserrat",sans-serif;
+  font-weight: 400;
+  border:none;
+  font-size: 60px;
+  border-radius: 70px;
+  padding: 10px 140px;
+  margin: 40px 2px;
+  opacity: 0.8;
+  transition: ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  height: 5px;
 }
 .boxes0{
     margin-left: 70px;
+    border-radius: 5px;
+    border-color: #7B68EE;
+    font-size: large;
 }
 .boxes1{
-    margin-left: 115px;
+    margin-left: 120px;
+    border-radius: 5px;
+    font-size: large;
+    border-color: #7B68EE;
+    margin-top: 20px;
 }
 .boot{
-    position: absolute;
+    position: relative;
     margin-top: 5%;
-    margin-left: 50%;
+    margin-left: 48%;
     padding: 10px;
+    color: #666666;
+    font-size: 22px ;
    
 }
 
