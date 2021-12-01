@@ -7,8 +7,9 @@ function Homepage() {
                 <div class="front-col-1">
                     <div className="style-1">
                         <h1 class="value-1">Club<span>Spot</span></h1>
+                        <div class="style-2"></div>
                     </div>
-                    <div class="style-2"></div>
+                    
                 </div>
                 <section class="event-slider">
                 <div class="slider-heading">
