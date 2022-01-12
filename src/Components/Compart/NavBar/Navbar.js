@@ -13,7 +13,6 @@ function Navbar() {
         <nav>
             <ul className="nav_links">
                 <li><Link to = "/Club">Club</Link></li>
-                <li><Link to = "/Registration">Registration</Link></li>
                 <li><Link to = "/Event">Event</Link></li>
                 <li><Link to = "/Profile">Profile</Link></li>
             </ul>
