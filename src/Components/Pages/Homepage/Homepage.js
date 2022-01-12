@@ -20,7 +20,7 @@ function Homepage() {
                     <h3 class="top">
                     LIVE EVENTS</h3>
                 </div>
-                <div className="event-box">
+                <div className="club-box">
                 <a href ='#'>
                   <strong>Heading</strong>  
                   <img src="https://images.unsplash.com/photo-1638317004711-62044568893a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"></img>
@@ -62,4 +62,4 @@ function Homepage() {
     )
 }
 
-export default Homepage;
+export default Homepage
