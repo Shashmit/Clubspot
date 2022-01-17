@@ -1,23 +1,21 @@
 import React from 'react'
 import "./Homepage.css"
-
+import club from "./club-pic.jpg"
 function Homepage() {
     return (
         <div>
                 <div class="front-col-1">
+                <img src={club} className='pic'/>
                     <div className="style-1">
-                        <h1 class="value-1">Club<span>Spot</span></h1>
+                    <p className='intro'>An event management platform for college. This websites will help you to join various club events without any hassle.
+                    </p>
                     </div>
-                        <div class="style-2">
-                        <p>An event management platform for VIT-AP</p>
-                        </div>
                 </div>
                 <section class="event-slider">
                 <div class="slider-heading">
                     <h3 class="top">
                     LIVE EVENTS</h3>
                 </div>
-                
                 <div className="event-box">
                 <a href ='#'>
                   <strong>Heading</strong>  
