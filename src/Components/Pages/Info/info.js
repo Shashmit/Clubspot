@@ -1,6 +1,5 @@
 import React from 'react'
 import "./infos.css";
-
 export default function Profile() {
     return (
     <div class="containers-1">
@@ -15,7 +14,6 @@ export default function Profile() {
                                 <h3>Club Coordinator : </h3>
                                 <h3>President : </h3>
                             </div>    
-               
                         <div class="col-79" id="">
                             <h6>About Club</h6>
                             <br />
