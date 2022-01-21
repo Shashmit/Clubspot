@@ -5,10 +5,18 @@
 }
 .style-1{
     background-color:#bf80ff;
-    height: 350px;
-    width: 500px;
+    height: 300px;
+    width: 450px;
     border-radius: 80px;
-    margin-top: 10px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.style-2{
+    background-color:#db7abe;
+    height: 170px;
+    width: 170px;
+    border-radius: 150px;
+    margin-top: 0px;
 }
 .pic{
     height: 400px;
@@ -38,7 +46,7 @@
     flex-direction: column;
     width: 300px;
     text-decoration: none;
-    background-color: white;
+    background-color: rgb(190, 170, 226);
     border-radius: 25px;
     margin: 20px;
     padding: 25px;
@@ -47,12 +55,13 @@
     transition: all ease 0.3s;
 }
 .event-box strong {
-    font-size: 1.56rem;
+    font-size: 1.60rem;
     font-family:'Zen Kaku Gothic New', sans-serif;
     font-weight: 600;
     margin-top: 24px;
-    color:#8a8a5c;
+    color:white;
     text-align: center;
+    margin-left: 10%;
 }
 .event-box img{
     width: 250px;
@@ -63,11 +72,28 @@
     object-position: center;
     margin: 20px auto;
 }
-.intro{
-    color: black;
+
+.event-box p{
+    font-size: 17px;
+    color: #646469;
     text-align: center;
-    padding-top: 120px;
+}
+.intro-1{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 90px;
     padding-left: 20px;
     padding-right: 20px;
-    
+    font-weight:400;
     }
+    .intro-2{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 57px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight:400;
+        }
+

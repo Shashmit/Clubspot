@@ -7,6 +7,7 @@ import Homepage from "./Components/Pages/Homepage/Homepage";
 import Event from "./Components/Pages/Event/Event";
 import Club from "./Components/Pages/Club/Club";
 import Profile from "./Components/Pages/Forms/Profile"
+import Footer from "./Components/Compart/Footer/Footer"
 function App() {
     return(
         <Router>
@@ -21,6 +22,7 @@ function App() {
                 <Route exact path="/Profile"  element={<Profile/>}/>
                 </Route>
             </Routes>
+            <Footer />
         </Router>
     );
 }

@@ -1,5 +1,5 @@
 .parent{
-    margin-top: 20px;
+    margin-top: 27px;
  
 }
 .parent-parallel{
@@ -7,51 +7,57 @@
     justify-content: space-evenly;
 }
 .parallel-1{
-    background-color: #79d279;
+    background-color: #88a7e2;
     padding: 2%;
-    border-radius: 60px; 
+    border-radius: 90px; 
 }
 .parent-parallel p{
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 24px;
 }
 .parallel-2{
-    background-color: #85a3e0;
+    background-color: #ac83e0;
     padding: 2%;
-    border-radius: 60px;
+    border-radius: 90px;
 }
 .club-box{
     display: flex;
     flex-direction: row;
     text-align: center;
 
-    width: 450px;
-    height: 180px;
+    width: 350px;
+    height: 160px;
     text-decoration: none;
-    background-color: #d1e0e0;
+    background-color: white;
     border-radius: 50px;
-    margin: 20px;
+    margin: 40px;
+    margin-left: 70px;
     padding: 20px;
     overflow: hidden;
     transition: all ease 0.3s;
 }
 .club-box img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+width: 125px;
+height: 125px;
+border-radius: 50%;
 }
 .club-box h3{
-    color: black;
-    font-size: 18px;
-    margin:auto;
+color: rgb(110, 104, 119);
+font-size: 17px;
+margin:auto;
 }
 .columns{
-    width: 500px;
-    height: 800px;
-    overflow-y: auto;
+width: 500px;
+height: 800px;
+overflow-y: auto;
 }
 .columns::-webkit-scrollbar{
-    width: 0px;
+width: 0px;
+}
+h2{
+color: beige;
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
