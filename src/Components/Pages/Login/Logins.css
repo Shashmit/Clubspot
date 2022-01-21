@@ -12,12 +12,10 @@
 }
 .button{
     margin-top: 50%;
-    background-color: #7B68EE;
+    background-color:#ff751a;
     border-radius: 220px;
     color: white;
     padding: 10px 30px;
-    border-color: rgb(163, 143, 163);
-    border-width: 2px;
     text-align: center;
     font-size: 22px;
     margin:20px 0;
@@ -29,13 +27,13 @@
     height: 60px;
 }
 .button:hover {
-    background-color:#ff751a;
+    
+    background-color: #7B68EE;
     color: black;
     opacity: 0.9;
     transition: 0.3s;
 }
-
-.fa-google,button:hover{
+.fa-google button:hover{
    color: #ff751a;
    font-size: x-large;
 }
