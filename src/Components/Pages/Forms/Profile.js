@@ -4,7 +4,7 @@ export default function Profile() {
     return (
     <div class="container">
         <div class="label">
-            <h1>User Profile</h1>
+            <h1 class="head">User Profile</h1>
                 <div class="row">
                     <div class="text-center">
                         <img src="" class="avatar" alt="avatar"/>

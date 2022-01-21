@@ -1,92 +1,64 @@
-.containers-1{
-    height:100vh;
+.parent{
+    margin-top: 27px;
+ 
+}
+.parent-parallel{
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-.labels-2{
-    max-width: 1300px;
-    height: 100%;
-    width: 100%;
-    background-color:#9c8cf2;
-    padding: 0 70px;
-    border-radius: 50px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
-    margin-top: 3%;
+    justify-content: space-evenly;
 }
-label,
-h3 {
-  color: #666666;
-
+.parallel-1{
+    background-color: #88a7e2;
+    padding: 2%;
+    border-radius: 90px; 
+}  
+.parent-parallel p{
+    color: whitesmoke;
+    font-size: 24px;
 }
-.text-center{
-  display: flex;
-  flex-direction: column;
+.parallel-2{
+    background-color: #ac83e0;
+    padding: 2%;
+    border-radius: 90px;
 }
-.row-1{
-  margin-top: 9%;
-  display: flex;
-  flex-direction: row;
-}
-.head {
-  color: white;
-  font-family: "Poppins";
-  font-style: Bolder;
-  text-align: center;
-}
-.avatar-2 {
-  width: 400px;
-  height: 400px;
-}
-.personal-1{
-    margin-left: 150px;
-}
-.col-78{
-    margin-top: 20px;
-
-}
-.event-slider{
-    box-sizing: border-box;
-    height: 400px;
-}
-.top{
-    margin-top: 10px;
-}
-.slider-heading{
-    font-family: Arial, Helvetica, sans-serif;
+.club-box{
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0px auto;
-    padding-left: 20px;
-}
-.event-box{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+    flex-direction: row;
+    text-align: center;
+    width: 350px;
+    height: 160px;
     text-decoration: none;
     background-color: white;
-    border-radius: 25px;
-    margin: 20px;
-    padding: 25px;
-    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 40px;
+    margin-left: 70px;
+    padding: 20px;
     overflow: hidden;
+    justify-content: space-evenly;
     transition: all ease 0.3s;
 }
-.event-box strong {
-    font-size: 1.56rem;
-    font-family:'Zen Kaku Gothic New', sans-serif;
-    font-weight: 600;
-    margin-top: 24px;
-    color:#8a8a5c;
+.club-box img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+.club-box h3{
+    color: rgb(110, 104, 119);
+    font-size: 17px;
+    margin:auto;
+}
+.columns{
+    width: 500px;
+    height: 800px;
+    overflow-y: auto;
+}
+.columns::-webkit-scrollbar{
+    width: 0px;
+}
+h2{
+    color: beige;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.event-box img{
-    width: 250px;
-    height: 250px;
-    display: flex;
-    padding: 20px 0px;
-    object-fit: contain;
-    object-position: center;
-    margin: 20px auto;
-}
+
+
+

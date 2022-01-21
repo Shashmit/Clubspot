@@ -15,7 +15,7 @@ function Registration() {
                                 <input className="boxes0" type="text" placeholder="Name" required name="Nickname"></input>
                             </li>
                                 <li class="input-box">
-                                    <span class="details">Id : </span>
+                                    <span class="details">Id : {}</span>
                                     <input className="boxes1" type="text" placeholder="Id" required name="RegNo"></input>
                                 </li>
                         </ul>

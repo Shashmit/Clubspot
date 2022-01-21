@@ -1,65 +1,26 @@
-.divide-1{
-    height: 100vh;
-    position: relative;
-    width: 100%;
+
+.col-mid-2{
+    height: 64vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.col-mid-1{
-    position: relative;
-    width: 0%;
-    height: 100%;
-}
-.image-1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    opacity: 75%;
-}
-.image-2{
-    position: absolute;
-    top: 3%;
-    right: 2%;
-    width: 20px;
-}
-
 .Name-2{
-    color: white;
+    color: rgb(110, 105, 105);
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    position: relative;
-    top:35%;
-    left: 70%;
-    text-align: center;
-}
-
-.fa-google{
-     color:#009933;
-     font-size: x-large;
-    
-}
-
-.close{
-    font-size: 25px;
-    color:black;
-    position: absolute;
-    top: 1%;
-    right: 2%;
 }
 .button{
-    position: absolute;
-    left: 65%;
-    top: 45%;
-    background-color: #ff751a;
+    margin-top: 50%;
+    background-color: #7B68EE;
     border-radius: 220px;
     color: white;
     padding: 10px 30px;
     border-color: rgb(163, 143, 163);
     border-width: 2px;
     text-align: center;
-    font-size: 20px;
-    margin: 6px 4px;
+    font-size: 22px;
+    margin:20px 0;
     opacity: 0.8;
     transition: 0.3s;
     display: inline-block;
@@ -68,5 +29,13 @@
     height: 60px;
 }
 .button:hover {
-    opacity: 10;
+    background-color:#ff751a;
+    color: black;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.fa-google,button:hover{
+   color: #ff751a;
+   font-size: x-large;
 }

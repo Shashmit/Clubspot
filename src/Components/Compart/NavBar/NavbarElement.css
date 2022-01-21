@@ -14,20 +14,23 @@ header{
   padding: 0px 20px;
 }
 .logopart1{
-  color: black;
+  color: #7464cc;
   font-size: 40px;
   font-family: "Poppins";
   font-weight: 900;
 }
 .logopart2{
-  color:#7B68EE;
+  color:#3fa6c5;
   font-size: 42px;
   font-family: "Poppins";
   font-weight: bolder;
 }
 
+.logopart1:hover{
+  color:#cf7bb3;
+}
 .logopart2:hover{
-  color:black;
+  color:#7B68EE;
 }
 
 li, a{
@@ -38,7 +41,7 @@ li, a{
   text-decoration: none;
 }
 li a:hover {
-  color: black;
+  color: rgb(231, 120, 45);
   transition:0.3s;
 }
 .cta{
@@ -60,7 +63,7 @@ li a:hover {
 }
 .cta:hover{
   background-color: #7B68EE;
-  color: black;
+  color: white;
   opacity: 0.9;
   transition: 0.3s;
 }
